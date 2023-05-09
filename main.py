@@ -51,6 +51,7 @@ while True:
         print(mathIndex)
         if match[mathIndex]:
             print('Rosto Reconhecido')
+            index = 2
         else:
             print('Rosto Desconhecido')
             index = 0
