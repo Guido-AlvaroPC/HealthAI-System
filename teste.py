@@ -57,7 +57,8 @@ def get_user_data():
         writer = csv.writer(file)
         writer.writerow([name, cpf, phone])
         engine.say(f'{name}, seu cadastro foi realizado com sucesso!')
+        engine.say("Agora fique parado para que eu possa tirar uma foto sua")
         engine.runAndWait()
 
 # Executa a função principal
-get_user_data()
+#get_user_data()
